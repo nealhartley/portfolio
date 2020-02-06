@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="styles/portfolioStyles.css"> 
         <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
-        <script src="js/portfolioscroll.js"></script>
+        
     </head>
     <body>
         <div class = "content">
@@ -19,19 +19,19 @@ and open the template in the editor.
             <h1>PROJECTS</h1>
             <div class = "diamond"></div>
             <div class = "inline_links">
-                <div class = "vsa project_link" onClick = "scrollToDiv('vsa_block')">
+                <div id="VSA" class = "vsa project_link">
                     <h2>VSA</h2>
                 </div>
-                <div class = "reidstrees project_link" onClick = "scrollToDiv('reidstrees_block')">
+                <div id="Reids" class = "reidstrees project_link">
                     <h2>ReidsTrees</h2>
                 </div>
-                <div class = "portfolio project_link" onClick = "scrollToDiv('seb_block')">
+                <div id="Seb" class = "portfolio project_link" >
                     <h2>Sebastian</h2>
                 </div>
-                <div class = "blackdot project_link" onClick = "scrollToDiv('blackdot_block')">
+                <div id="BlackDot" class = "blackdot project_link" >
                     <h2>BlackDot</h2>
                 </div>
-                <div class = "pathstarters project_link" onClick = "scrollToDiv('pathstarters_block')">
+                <div id="PathStart" class = "pathstarters project_link">
                     <h2>PathStarters</h2>
                 </div>
             </div>
@@ -248,5 +248,6 @@ and open the template in the editor.
             <div class="home_icon"></div>
         </div>
         <a id = "LOGO" href="index.html">HOME</a>
+        <script src = "scripts/bundle.js"></script>
     </body>
 </html>
