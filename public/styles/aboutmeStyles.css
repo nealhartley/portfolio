@@ -1,0 +1,152 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/01/2019, 1:51:17 PM
+    Author     : Dev
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9/01/2019, 2:15:12 PM
+    Author     : Dev
+*/
+html {
+  font-family: "Fira Sans", sans-serif; }
+
+a {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  font-size: 1em;
+  font-weight: 100;
+  background: #ff1111;
+  padding: 5px 40px;
+  transition: 0.2s cubic-bezier(1, -1, 0, 2);
+  clip-path: polygon(10% 0, 100% 0, 95% 50%, 90% 100%, 0 100%);
+  text-decoration: none;
+  color: white; }
+
+a:visited {
+  color: white;
+  text-decoration: none; }
+
+a:hover {
+  cursor: pointer;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #ff1111;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 0 100%); }
+
+h1 {
+  font-size: 4em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 20px; }
+
+h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; }
+
+#LOGO {
+  position: fixed;
+  top: 2em;
+  left: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  transition: 0.2s cubic-bezier(1, -1, 0, 2);
+  clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 90% 25%, 90% 90%, 60% 90%, 60% 70%, 60% 70%, 60% 90%, 10% 90%, 10% 25%); }
+
+#LOGO:hover {
+  clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 90% 25%, 90% 90%, 60% 90%, 60% 70%, 55% 70%, 55% 90%, 10% 90%, 10% 25%); }
+
+@media only screen and (max-width: 440px) {
+  #LOGO {
+    top: 0.5em;
+    left: 1em;
+    font-size: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; } }
+
+html {
+  width: 100vw;
+  height: 100vh; }
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh; }
+
+.picture_full_screen {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/fullscreenimage.jpg");
+  background-size: cover;
+  background-origin: -5% -5%;
+  background-repeat: no-repeat;
+  shape-outside: polygon(0% 0%, 0% 10%, 100% 100%, 0% 100%); }
+
+.float_right {
+  margin-right: 5vw;
+  text-align: justify; }
+
+.float-left {
+  float: left;
+  width: 100vw;
+  height: 100vh;
+  shape-outside: polygon(0% 0%, 50% 0%, 50% 50%, 10% 0%, 90% 100%, 0% 100%); }
+
+.mail, .mail:hover {
+  background-color: #359aff; }
+
+h2 {
+  padding-bottom: 1.5em; }
+
+h2:first-letter {
+  font-family: 'Monoton', cursive;
+  font-weight: 200;
+  font-size: 1.2em; }
+
+p:last-of-type {
+  margin-bottom: 3em; }
+
+/*a{
+    background-color: rgba(0,0,0,0);
+    margin-left: 0;
+    padding: 0px;
+    clip-path: none;
+    
+    
+}*/
+a:visited {
+  color: white; }
+
+/*
+a:hover{
+    background-color: rgba(0,0,0,0);
+    background: none;
+    margin-left: 0;
+    clip-path: none;
+}*/
+@media only screen and (max-width: 440px) {
+  .float-left {
+    float: none;
+    width: 100%;
+    height: 25vh;
+    shape-outside: none;
+    background-image: url("../images/fullscreenimage.jpg");
+    background-size: 100% 100%; }
+  .float_right {
+    padding: none;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5em;
+    padding-top: 5em; }
+  .picture_full_screen {
+    background-image: none; } }

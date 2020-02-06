@@ -1,0 +1,233 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/01/2019, 12:24:09 PM
+    Author     : Dev
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9/01/2019, 2:15:12 PM
+    Author     : Dev
+*/
+html {
+  font-family: "Fira Sans", sans-serif; }
+
+a {
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  font-size: 1em;
+  font-weight: 100;
+  background: #ff1111;
+  padding: 5px 40px;
+  transition: 0.2s cubic-bezier(1, -1, 0, 2);
+  clip-path: polygon(10% 0, 100% 0, 95% 50%, 90% 100%, 0 100%);
+  text-decoration: none;
+  color: white; }
+
+a:visited {
+  color: white;
+  text-decoration: none; }
+
+a:hover {
+  cursor: pointer;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #ff1111;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 0 100%); }
+
+h1 {
+  font-size: 4em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 20px; }
+
+h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; }
+
+#LOGO {
+  position: fixed;
+  top: 2em;
+  left: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  transition: 0.2s cubic-bezier(1, -1, 0, 2);
+  clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 90% 25%, 90% 90%, 60% 90%, 60% 70%, 60% 70%, 60% 90%, 10% 90%, 10% 25%); }
+
+#LOGO:hover {
+  clip-path: polygon(0% 25%, 50% 0%, 100% 25%, 90% 25%, 90% 90%, 60% 90%, 60% 70%, 55% 70%, 55% 90%, 10% 90%, 10% 25%); }
+
+@media only screen and (max-width: 440px) {
+  #LOGO {
+    top: 0.5em;
+    left: 1em;
+    font-size: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; } }
+
+html {
+  background: linear-gradient(to bottom, #000b28 60%, #ff99cc 200%);
+  overflow-x: hidden; }
+
+body {
+  color: white;
+  text-align: center; }
+
+h1 {
+  font-size: 4em; }
+
+h2 {
+  font-size: 2em;
+  background-color: #359aff;
+  clip-path: polygon(25% 100%, 23% 50%, 25% 0%, 100% 0%, 100% 100%); }
+
+.content {
+  padding-top: calc(50vh - 200px); }
+
+.diamond {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #359aff;
+  transition: 0.2s cubic-bezier(1, -1, 0, 2);
+  clip-path: polygon(50% 0%, 65% 15%, 75% 25%, 90% 40%, 100% 50%, 90% 60%, 75% 75%, 65% 85%, 50% 100%, 35% 85%, 10% 60%, 0 50%, 10% 40%, 20% 30%, 35% 15%); }
+
+.inline_links {
+  margin-top: 20px;
+  display: inline-flex;
+  width: 120%;
+  margin-left: 0%; }
+
+.project_link {
+  width: 20%;
+  background-color: white;
+  border-bottom: #ff1111 solid 2px;
+  height: 80px;
+  clip-path: polygon(0% 100%, 20% 0%, 100% 0%, 80% 100%);
+  margin-left: -1.75%;
+  margin-right: -1.75%;
+  margin-bottom: 50px;
+  -webkit-filter: none;
+  /* Safari 6.0 - 9.0 */
+  filter: none;
+  z-index: 0; }
+
+.project_link:first-of-type {
+  clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 80% 100%); }
+
+.project_link:last-of-type {
+  clip-path: polygon(0% 100%, 20% 0%, 100% 0%, 100% 100%); }
+
+.project_link:hover {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer; }
+
+.project_link h2 {
+  display: none;
+  width: 100%;
+  text-align: center;
+  color: white;
+  filter: none; }
+
+.project_link:hover h2 {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10; }
+
+.vsa {
+  background-image: url("../images/vsalogo.png");
+  background-size: 100%;
+  background-origin: 20% 0%; }
+
+.reidstrees {
+  background-image: url("../images/reidstreeslogo.png");
+  background-size: 30% 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat; }
+
+.portfolio {
+  background-image: url("../images/sebastian.png");
+  background-position-y: 0%;
+  background-size: 105% 300%; }
+
+.blackdot {
+  background-image: url("../images/blackdot.png");
+  background-size: 200% 300%;
+  background-position-y: 5%; }
+
+.pathstarters {
+  background-image: url("../images/logo_pathstarters.png");
+  background-size: 40% 100%;
+  background-position-x: 40%;
+  background-repeat: no-repeat; }
+
+.portfolio_item {
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  margin-top: 5em;
+  margin-bottom: 5em; }
+
+.logo {
+  width: 25%;
+  padding-bottom: 12.5%;
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+  shape-outside: polygon(0% 0%, 110% 0%, 110% 100%, 0% 100%);
+  float: left; }
+
+.vsa_logo {
+  background-image: url("../images/vsalogo.png"); }
+
+.reids_logo {
+  background-image: url("../images/reidstreeslogo.png"); }
+
+.sebs_logo {
+  background-image: url("../images/sebastian.png"); }
+
+.blackdot_logo {
+  background-image: url("../images/blackdot.png"); }
+
+.pathstarters_logo {
+  background-image: url("../images/logo_pathstarters.png"); }
+
+@media only screen and (max-width: 440px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100vw; }
+  body {
+    overflow-y: hidden;
+    margin: 0; }
+  .content {
+    left: 0px; }
+  .logo {
+    width: 100%;
+    padding-bottom: 40%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: 10;
+    float: none; }
+  h2 {
+    font-size: 2em;
+    background-color: #359aff;
+    clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 100%); }
+  .portfolio_item {
+    width: 90%; }
+  a {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #ff1111;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 0 100%); }
+  .project_link:first-of-type {
+    margin-left: 0px; } }
