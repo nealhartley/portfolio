@@ -75,78 +75,56 @@ h2 {
     padding-bottom: 0.5em; } }
 
 html {
-  width: 100vw;
-  height: 100vh; }
+  background: linear-gradient(to bottom, #000b28 60%, #ff99cc 200%);
+  overflow-x: hidden; }
 
 body {
-  margin: 0;
-  width: 100vw;
-  height: 100vh; }
+  color: white;
+  text-align: center; }
 
-.picture_full_screen {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("../images/fullscreenimage.jpg");
-  background-size: cover;
-  background-origin: -5% -5%;
-  background-repeat: no-repeat;
-  shape-outside: polygon(0% 0%, 0% 10%, 100% 100%, 0% 100%); }
+.content {
+  padding-top: calc(50vh - 200px); }
 
-.float_right {
-  margin-right: 5vw;
-  text-align: justify; }
+.diamond {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #359aff;
+  transition: 0.2s cubic-bezier(1, -1, 0, 2);
+  clip-path: polygon(50% 0%, 65% 15%, 75% 25%, 90% 40%, 100% 50%, 90% 60%, 75% 75%, 65% 85%, 50% 100%, 35% 85%, 10% 60%, 0 50%, 10% 40%, 20% 30%, 35% 15%); }
 
-.float-left {
-  float: left;
-  width: 100vw;
-  height: 100vh;
-  shape-outside: polygon(0% 0%, 50% 0%, 50% 50%, 10% 0%, 90% 100%, 0% 100%); }
+.intro_text {
+  box-sizing: border-box;
+  padding-left: 15%; }
 
-.mail, .mail:hover {
-  background-color: #359aff; }
+.flex_container {
+  display: flex; }
 
-h2 {
-  padding-bottom: 1.5em; }
+.flex_item {
+  width: 50%; }
 
-h2:first-letter {
-  font-family: 'Monoton', cursive;
-  font-weight: 200;
-  font-size: 1.2em; }
+.third_size {
+  width: 21%;
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-bottom: 21%;
+  background-size: contain;
+  background-repeat: no-repeat; }
 
-p:last-of-type {
-  margin-bottom: 3em; }
+.narrow_width {
+  width: 50%;
+  margin-left: 25%; }
 
-/*a{
-    background-color: rgba(0,0,0,0);
-    margin-left: 0;
-    padding: 0px;
-    clip-path: none;
-    
-    
-}*/
-a:visited {
-  color: white; }
+.section {
+  margin-top: 5em;
+  margin-bottom: 5em; }
 
-/*
-a:hover{
-    background-color: rgba(0,0,0,0);
-    background: none;
-    margin-left: 0;
-    clip-path: none;
-}*/
-@media only screen and (max-width: 440px) {
-  .float-left {
-    float: none;
-    width: 100%;
-    height: 25vh;
-    shape-outside: none;
-    background-image: url("../images/fullscreenimage.jpg");
-    background-size: 100% 100%; }
-  .float_right {
-    padding: none;
-    width: 90%;
-    margin: auto;
-    padding-bottom: 5em;
-    padding-top: 5em; }
-  .picture_full_screen {
-    background-image: none; } }
+.html {
+  background-image: url("../images/skills_icons/html5.png"); }
+
+.css {
+  background-image: url("../images/skills_icons/css3.png"); }
+
+.js {
+  background-image: url("../images/skills_icons/js.jpg"); }
