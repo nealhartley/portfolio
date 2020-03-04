@@ -19,7 +19,7 @@ and open the template in the editor.
 html {
   font-family: "Fira Sans", sans-serif; }
 
-a {
+.link {
   margin-right: 0.5em;
   margin-left: 0.5em;
   font-size: 1em;
@@ -31,11 +31,11 @@ a {
   text-decoration: none;
   color: white; }
 
-a:visited {
+.link:visited {
   color: white;
   text-decoration: none; }
 
-a:hover {
+.link:hover {
   cursor: pointer;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #ff1111;
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 0 100%); }
@@ -105,12 +105,13 @@ body {
   width: 50%; }
 
 .third_size {
-  width: 21%;
-  margin-left: 6%;
-  margin-right: 6%;
-  padding-bottom: 21%;
+  width: 15%;
+  margin-left: 9%;
+  margin-right: 9%;
+  padding-bottom: 15%;
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-color: transparent !important; }
 
 .narrow_width {
   width: 50%;
@@ -127,4 +128,13 @@ body {
   background-image: url("../images/skills_icons/css3.png"); }
 
 .js {
-  background-image: url("../images/skills_icons/js.jpg"); }
+  background-image: url("../images/skills_icons/js.png"); }
+
+.github_link {
+  background-image: url("../images/links_icons/github.png"); }
+
+.linkedin_link {
+  background-image: url("../images/links_icons/linkedin.png"); }
+
+.instagram_link {
+  background-image: url("../images/links_icons/instagram.png"); }

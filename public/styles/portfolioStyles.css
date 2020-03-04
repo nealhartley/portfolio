@@ -19,7 +19,7 @@ and open the template in the editor.
 html {
   font-family: "Fira Sans", sans-serif; }
 
-a {
+.link {
   margin-right: 0.5em;
   margin-left: 0.5em;
   font-size: 1em;
@@ -31,11 +31,11 @@ a {
   text-decoration: none;
   color: white; }
 
-a:visited {
+.link:visited {
   color: white;
   text-decoration: none; }
 
-a:hover {
+.link:hover {
   cursor: pointer;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #ff1111;
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 0 100%); }

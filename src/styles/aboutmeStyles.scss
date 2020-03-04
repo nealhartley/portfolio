@@ -50,12 +50,13 @@ body{
 }
 
 .third_size{
-    width: 21%;
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-bottom: 21%;
+    width: 15%;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-bottom: 15%;
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: transparent !important;
     
 }
 
@@ -81,5 +82,17 @@ body{
 }
 
 .js{
-    background-image: url("../images/skills_icons/js.jpg");
+    background-image: url("../images/skills_icons/js.png");
+}
+
+.github_link{
+    background-image: url("../images/links_icons/github.png");
+}
+
+.linkedin_link{
+    background-image: url("../images/links_icons/linkedin.png");
+}
+
+.instagram_link{
+    background-image: url("../images/links_icons/instagram.png");
 }
