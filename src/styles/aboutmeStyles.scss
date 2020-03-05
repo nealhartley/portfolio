@@ -124,3 +124,37 @@ body{
 .instagram_link{
     background-image: url("../images/links_icons/instagram.png");
 }
+
+@media only screen and (max-width:440px) {
+
+    .flex_container{
+        display: inline-block;
+    }
+
+    .flex_item{
+        width:100%;
+    }
+
+    .neal_picture{
+        background-image: url("../images/fullscreenimage_smaller.png");
+        padding-bottom: 10em;
+        background-position-x: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    }
+    .narrow_width{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    
+    .phone_flex_container{
+        display: flex;
+    }
+    
+    .phone_flex_item{
+        width:50%;
+    }
+
+}
