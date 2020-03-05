@@ -85,6 +85,10 @@ body {
 .content {
   padding-top: calc(50vh - 200px); }
 
+.seventy_width {
+  width: 70%;
+  margin-left: 15%; }
+
 .diamond {
   margin: auto;
   width: 100px;
@@ -96,7 +100,14 @@ body {
 
 .intro_text {
   box-sizing: border-box;
-  padding-left: 15%; }
+  text-align: left; }
+
+.neal_picture {
+  background-image: url("../images/fullscreenimage_smaller.png");
+  padding-bottom: 20em;
+  background-size: cover;
+  background-position-x: 20px;
+  background-repeat: no-repeat; }
 
 .flex_container {
   display: flex; }
@@ -120,6 +131,16 @@ body {
 .section {
   margin-top: 5em;
   margin-bottom: 5em; }
+
+.links_container {
+  width: 50%; }
+
+.links_section {
+  text-align: left;
+  color: white; }
+
+.end_pad {
+  padding-bottom: 5em; }
 
 .html {
   background-image: url("../images/skills_icons/html5.png"); }
